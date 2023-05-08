@@ -1,0 +1,61 @@
+/*reset*/
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font: 1.6rem 'Open Sans', sans-serif;
+    margin: 0;
+    background-color: var(--color-white);
+    font-weight: 500;
+}
+
+section,
+figure,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ol,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/*change the streamlit*/
+#mainmenu {
+    visibility: hidden;
+}
+
+footer {
+    visibility: hidden;
+}
+
+header {
+    visibility: hidden;
+}
+
+/*main*/
+.title {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.subtitle {
+    text-align: center;
+    font-weight: bold;
+    padding: 10px 0;
+}
