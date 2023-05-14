@@ -9,8 +9,6 @@ st.set_page_config(page_title="Visualization of Big Company", page_icon=None, la
 # get les differentes données sur les entreprises 
 
 tickers = yf.Tickers('msft aapl goog amzn tsla meta nflx')
-tickers.tickers['AAPL'].info
-
 
 # function use local css
 def local_css(file_name):
